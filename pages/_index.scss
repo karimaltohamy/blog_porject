@@ -1,4 +1,4 @@
-$primary-color: #405fff;
+$primary-color: #0d5eaf;
 $dark-color: #0e0d16;
 
 .ad_space {
@@ -312,7 +312,7 @@ $dark-color: #0e0d16;
             padding: 3px 10px;
             border-radius: 4px;
             color: white;
-            background-color: #6b34ba;
+            background-color: $primary-color;
             width: fit-content;
             font-size: 10px;
             font-weight: 500;

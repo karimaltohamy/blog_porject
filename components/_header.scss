@@ -1,11 +1,10 @@
-$primary-color: #405fff;
+$primary-color: #0d5eaf;
 $dark-color: #0e0d16;
 
 // start mini_header
 .mini_header {
   padding: 5px 0;
   background: $primary-color;
-  background: linear-gradient(144deg, #405fff, #5b42f3 50%, #00ddeb);
   color: white;
 
   .line {
@@ -254,7 +253,7 @@ header {
       }
 
       .btn_contact {
-        background: linear-gradient(144deg, #405fff, #5b42f3 50%, #00ddeb);
+        background: linear-gradient(144deg, #0d5eaf, #2d84dc 50%, #00ddeb);
         color: white;
         font-weight: 500;
         border: none;
@@ -323,7 +322,7 @@ header {
 // start main_head
 .main_head {
   height: 200px;
-  background-color: #bdc8fe9c;
+  background-color: #94bce4;
 
   .container {
     height: 100%;
