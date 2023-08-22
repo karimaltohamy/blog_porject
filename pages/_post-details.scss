@@ -5,7 +5,6 @@ $dark-color: #0e0d16;
 .post_details_section {
   .head_post {
     height: 500px;
-    background-image: url(../images/post-deatils.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -452,7 +451,6 @@ $dark-color: #0e0d16;
 
               .item {
                 height: 100%;
-                background-image: url(../images/swiper-img3.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -548,8 +546,6 @@ $dark-color: #0e0d16;
 
               &:nth-child(2) {
                 .item {
-                  background-image: url(../images/swiper-img.jpg);
-
                   .content {
                     .type {
                       background-color: #f74539;
@@ -560,8 +556,6 @@ $dark-color: #0e0d16;
 
               &:nth-child(3) {
                 .item {
-                  background-image: url(../images/swiper-img2.jpg);
-
                   .content {
                     .type {
                       background-color: #d66300;

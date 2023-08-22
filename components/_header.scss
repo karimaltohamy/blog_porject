@@ -241,34 +241,7 @@ header {
     }
 
     .info_header {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-
-      .lnag {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-
-        i {
-          font-size: 20px;
-        }
-      }
-
-      .btn_contact {
-        background: linear-gradient(144deg, #0d5eaf, #2d84dc 50%, #00ddeb);
-        color: white;
-        font-weight: 500;
-        border: none;
-        padding: 8px 25px;
-        border-radius: 3px;
-
-        &:hover {
-          color: $primary-color;
-          border: 1px solid $primary-color;
-          background-color: transparent;
-        }
-      }
+      display: none;
 
       .btn_menu {
         display: none;
@@ -283,7 +256,7 @@ header {
     .container {
       .logo {
         img {
-          width: 55px;
+          width: 75px;
         }
       }
 
@@ -292,21 +265,7 @@ header {
       }
 
       .info_header {
-        .lnag {
-          i {
-            font-size: 18px;
-          }
-
-          span {
-            font-size: 14px;
-          }
-        }
-
-        .btn_contact {
-          padding: 5px 15px;
-          font-size: 14px;
-          display: none;
-        }
+        display: block;
 
         .btn_menu {
           display: block;
@@ -394,7 +353,7 @@ header {
     margin-bottom: 30px;
 
     img {
-      width: 50px;
+      width: 80px;
     }
 
     i {
